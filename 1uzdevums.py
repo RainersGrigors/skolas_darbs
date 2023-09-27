@@ -3,4 +3,3 @@ def linolejs(kvadrātmetri,):
     return linoleja_cena_kvadrātmetrā*kvadrātmetri
 kvadrāti=200
 print(linulejs,"{}kvadrātmetri linolejs maksās {},EUR")
-
