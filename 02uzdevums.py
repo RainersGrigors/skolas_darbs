@@ -1,3 +1,4 @@
 x = str(input("ievaadiet teikumu"))
-a= x.split("...")
+y = "..."
+a=y.join(x)
 print(a)
