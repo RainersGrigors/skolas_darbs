@@ -1,4 +1,6 @@
-m= int(input("ievadiet masu kā veselu skaitli"))
-c = 300000000
-E= c*c*m
-print(E,"J")
+def ensteins(masa):
+    c=300000000
+    gaismas_ātrums=c*c
+    return gaismas_ātrums* masa
+masa= int(input("ievadiet masu, kā veselu skaitli"))
+print(ensteins)
