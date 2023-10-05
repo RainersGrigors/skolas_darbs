@@ -4,12 +4,11 @@ b = float(input("Ievadiet cik metrus biezs ir jūsu dēlis, skaitli ievadiet dec
 c = float(input("Ievadiet cik metrus garš ir jūsu dēlis, skaitli ievadiet decimāldaļās"))
 def dēļi(x,a,b,c):
     if x==1:
-        x=145
+        y = 145
     elif x==2:
-        x= 125
+        y= 125
     else:
-        print("Mums nav tādu dēļu")
-    return a*b*c*x
+        print("mums nav tādu dēļu")
+    return a*b*c*y
 dēļa_cena= dēļi(x,a,b,c)
 print(dēļa_cena)
-    
