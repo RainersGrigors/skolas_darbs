@@ -34,11 +34,11 @@
 # print(atbilde)
 
 
-# x = int(input("ievadiet pirmā riņķa rādiusu"))
-# y = int(input("ievadiet otrā riņķa rādiusu"))
-# def laukums(x, y):
-#     c = x*x*3.14
-#     b = y*y*3.14
-#     return c, b, c/b
-# atbilde = laukums(x,y)
-# print(atbilde)
+x = int(input("ievadiet pirmā riņķa rādiusu"))
+y = int(input("ievadiet otrā riņķa rādiusu"))
+def laukums(x, y):
+    c = x*x*3.14
+    b = y*y*3.14
+    return c, b, c/b
+atbilde = laukums(x,y)
+print(atbilde)
