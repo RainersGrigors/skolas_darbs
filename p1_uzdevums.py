@@ -1,9 +1,11 @@
-x = int(input("Ievadiet vārdu uzvārdu"))
+x = str(input("Ievadiet vārdu uzvārdu"))
 y =int(input("Ievadiet cik stundas jūs esat nostrādājis"))
-z =int(input("Ievadiet savu stundas likmi"))
-def alga(A):
+z =float(input("Ievadiet savu stundas likmi, kā decimāl daļu"))
+def alga(y,z):
     if(y > 40):
-        stundas_likme = y / 100 * 10 + y
+        stundas_likme = z / 100 * 10 + z
     else:
-        stundas_likme=y
-    
+        stundas_likme=z
+    return stundas_likme*y
+A = alga(y,z)
+print(x,"jūs alga ir ",A,"Eiro")
