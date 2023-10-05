@@ -8,7 +8,8 @@ def dēļi(x,a,b,c):
     elif x==2:
         y= 125
     else:
+        y = 0
         print("mums nav tādu dēļu")
     return a*b*c*y
 dēļa_cena= dēļi(x,a,b,c)
-print(dēļa_cena)
+print("Jūsu dēlis maksā",dēļa_cena,"Eiro")
