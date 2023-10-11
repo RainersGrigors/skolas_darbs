@@ -28,10 +28,10 @@
 # else:
 #     print(x+y)
 
-def funkcija (x, y):
-    return x + y, x - y
-atbilde = funkcija(10, 15)
-print(atbilde)
+# def funkcija (x, y):
+#     return x + y, x - y
+# atbilde = funkcija(10, 15)
+# print(atbilde)
 
 
 # x = int(input("ievadiet pirmā riņķa rādiusu"))
